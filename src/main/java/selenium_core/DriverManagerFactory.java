@@ -1,7 +1,7 @@
 package selenium_core;
 
 public class DriverManagerFactory {
-    public static DriverManager getDriverManager(String browser){
+    public static DriverManager getDriverManager(String browser) throws Exception {
         DriverManager driverManager;
 
         switch (browser){
@@ -11,8 +11,7 @@ public class DriverManagerFactory {
             case "Firefox":{
                 driverManager = new FirefoxDriverManager();
             }break;
-            default:
-                driverManager = new ChromeDriverManager();
+            default: throw new Exception("Browser: "+browser+" not supported");
         }
         return driverManager;
     }

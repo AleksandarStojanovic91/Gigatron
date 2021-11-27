@@ -25,7 +25,7 @@ public class BaseTest {
     DriverManager driverManager;
     String ctm = String.valueOf(System.currentTimeMillis());
 
-    public void init(String browser, String version, int wait) {
+    public void init(String browser, String version, int wait) throws Exception {
         driverManager = DriverManagerFactory.getDriverManager(browser);
         this.driver = driverManager.getWebDriver(version);
         this.driver.manage().timeouts().implicitlyWait(wait, TimeUnit.SECONDS);
