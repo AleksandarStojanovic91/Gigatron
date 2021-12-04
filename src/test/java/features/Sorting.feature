@@ -9,7 +9,7 @@ Feature: Sorting
 
     Examples:
       | sortingMethod |
-#      | rastuci       |
+      | rastuci       |
 #      | opadajuci     |
 #      | naziv         |
 #      | score         |
