@@ -1,0 +1,4 @@
+selenium_core\FirefoxDriverManager.class
+selenium_core\DriverManagerFactory.class
+selenium_core\ChromeDriverManager.class
+selenium_core\DriverManager.class

@@ -71,6 +71,7 @@
                     </argLine>
                     <suiteXmlFiles>
                            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
